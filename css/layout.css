@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    vertical-align: middle;
+}
+
+.conCard:after, ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+header{
+    width: 1300px;
+    height: 160px;
+    margin: 20px auto;
+}
+header h1{
+    text-align: center;
+}
+
+nav{
+    height: 50px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+nav .mainlist{
+    display: inline-block;
+}
+.mainlist > li{
+    float: left;
+    line-height: 50px;
+}
+.mainlist > li > a{
+    margin: 0 20px;
+    font-size: 13px;
+}
+.mainlist > li > a:hover{
+    color: #939393;
+}
+
+#mainVisual{
+    text-align: center;
+}
+#mainVisual img{
+    max-width: 100%;
+}
+
+#banner{
+    width: 1300px;
+    margin: 70px auto;
+}
+#banner > *{
+    float: left;
+    width: 400px;
+    margin-left: 10px;
+}
+#banner > *:first-child{
+    margin-left: 0;
+}
+#banner img{
+    margin-bottom: 10px;
+}
+#banner:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.contents{
+    padding: 30px 0;
+}
+.conTitel{
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.conCard{
+    width: 1320px;
+    margin: 20px auto;
+}
+.conCard li{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.conCard li a{
+    display: block;
+}
+.conCard img{
+    width: 100%;
+}
+.cardTitel{
+    font-size: 14px;
+    margin: 10px 0;
+}
+.cardSize{
+    font-size: 13px;
+    color: #8f8e8e;
+    height: 20px;
+}
+.cardPrice{
+    font-size: 13px;
+    color: #494949;
+}
+
+.con1, .con3{
+    background-color: #eeeeeeb7;
+}
+
+.ad {
+    width: 1300px;
+    margin: 0 auto 70px;
+}
+.ad li{
+    float: left;
+}
+.ad li + li{
+    margin-left: 20px;
+}
+
+
+
+footer{
+    font-size: 13px;
+    color: #666;
+}
+footer > div{
+    background-color: #ebeaea;
+    padding: 50px 0;
+}
+footer > div > ul{
+    width: 1300px;
+    margin: auto;
+}
+footer > div > ul > li{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-left: 90px;
+}
+
+footer h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+footer strong{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.st{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.address{
+    font-size: 11px;
+    color: #8f8e8e;
+    text-align: center;
+    padding: 30px 0;
+    line-height: 1.5;
+}
+
